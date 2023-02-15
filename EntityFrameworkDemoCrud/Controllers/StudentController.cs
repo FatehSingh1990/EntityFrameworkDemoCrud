@@ -22,7 +22,7 @@ namespace EntityFrameworkDemoCrud.Controllers
         {
             if (ModelState.IsValid)
             {
-                Tbl_Student obj = new Tbl_Student()
+                Tbl_Student obj = new Tbl_Student();
                 obj.Name = model.Name;
                 obj.FName = model.FName;
                 obj.Email = model.Email;
